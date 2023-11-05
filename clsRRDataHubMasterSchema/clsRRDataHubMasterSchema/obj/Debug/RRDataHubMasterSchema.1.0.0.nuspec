@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RRDataHubMasterSchema</id>
+    <version>1.0.0</version>
+    <title>Master Data Schema For RECEIPTROLLER Data Hub</title>
+    <authors>RECEIPTROLLER</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>logo_v_w.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://bi.receiptroller.com/</projectUrl>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\bin\Debug\net7.0\clsRRDataHubMasterSchema.dll" target="lib\net7.0\clsRRDataHubMasterSchema.dll" />
+    <file src="C:\Users\SHOSHIMODA\OneDrive - RECEIPTROLLER Inc\Marketing\Creatives\Images\Logos\2x\logo_v_w.png" target="\logo_v_w.png" />
+    <file src="C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\README.md" target="\README.md" />
+  </files>
+</package>

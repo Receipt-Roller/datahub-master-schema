@@ -11,13 +11,13 @@
     "C:\\Users\\SHOSHIMODA\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SHOSHIMODA\\Source\\Repos\\RR_DataHub_MasterScheme\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema.csproj",
-      "projectName": "clsRRDataHubMasterSchema",
-      "projectPath": "C:\\Users\\SHOSHIMODA\\Source\\Repos\\RR_DataHub_MasterScheme\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema.csproj",
+      "projectUniqueName": "C:\\Users\\SHOSHIMODA\\source\\repos\\RR_DataHub_MasterScheme\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema.csproj",
+      "projectName": "RRDataHubMasterSchema",
+      "projectPath": "C:\\Users\\SHOSHIMODA\\source\\repos\\RR_DataHub_MasterScheme\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema.csproj",
       "packagesPath": "C:\\Users\\SHOSHIMODA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SHOSHIMODA\\Source\\Repos\\RR_DataHub_MasterScheme\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema\\obj\\",
+      "outputPath": "C:\\Users\\SHOSHIMODA\\source\\repos\\RR_DataHub_MasterScheme\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SHOSHIMODA\\AppData\\Roaming\\NuGet\\NuGet.Config",

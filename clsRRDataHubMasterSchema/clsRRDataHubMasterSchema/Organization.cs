@@ -11,6 +11,6 @@ namespace clsRRDataHubMasterSchema
         public PostalAddress Address { get; set; }
         public List<Place> AreasServed { get; set; }
         public List<Brand> Brands { get; set; }
-        public 
+        
     }
 }

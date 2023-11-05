@@ -1,0 +1,11 @@
+C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\bin\Debug\net7.0\clsRRDataHubMasterSchema.deps.json
+C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\bin\Debug\net7.0\clsRRDataHubMasterSchema.dll
+C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\bin\Debug\net7.0\clsRRDataHubMasterSchema.pdb
+C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\obj\Debug\net7.0\clsRRDataHubMasterSchema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\obj\Debug\net7.0\clsRRDataHubMasterSchema.AssemblyInfoInputs.cache
+C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\obj\Debug\net7.0\clsRRDataHubMasterSchema.AssemblyInfo.cs
+C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\obj\Debug\net7.0\clsRRDataHubMasterSchema.csproj.CoreCompileInputs.cache
+C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\obj\Debug\net7.0\clsRRDataHubMasterSchema.dll
+C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\obj\Debug\net7.0\refint\clsRRDataHubMasterSchema.dll
+C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\obj\Debug\net7.0\clsRRDataHubMasterSchema.pdb
+C:\Users\SHOSHIMODA\source\repos\RR_DataHub_MasterScheme\clsRRDataHubMasterSchema\clsRRDataHubMasterSchema\obj\Debug\net7.0\ref\clsRRDataHubMasterSchema.dll

@@ -12,6 +12,10 @@ namespace clsRRDataHubMasterSchema
     /// </summary>
     public class AggregateRating : Rating
     {
+        public AggregateRating(string identifier, string name) : base(identifier, name)
+        {
+        }
+
         /// <summary>
         /// Gets or sets the item that has been reviewed and rated.
         /// </summary>

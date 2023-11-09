@@ -8,6 +8,10 @@ namespace clsRRDataHubMasterSchema
 {
     public class QuantitativeValue : Thing
     {
+        public QuantitativeValue(string identifier, string name) : base(identifier, name)
+        {
+        }
+
         public PropertyValue AdditionalProperty { get; set; }
         public long MaxValue { get; set; }
         public long MinValue { get; set; }

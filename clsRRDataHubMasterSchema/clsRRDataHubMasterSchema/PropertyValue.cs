@@ -8,6 +8,9 @@ namespace clsRRDataHubMasterSchema
 {
     public class PropertyValue : Thing
     {
+        public PropertyValue(string identifier, string name) : base(identifier, name)
+        {
+        }
         public long MaxValue { get; set; }
         public string MeasurementMethod { get; set; }
         public string MeasurementTechnique { get; set; }

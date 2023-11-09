@@ -8,6 +8,9 @@ namespace clsRRDataHubMasterSchema
 {
     public class PostalCodeRangeSpecification : Thing
     {
+        public PostalCodeRangeSpecification(string identifier, string name) : base(identifier, name)
+        {
+        }
         public string PostalCodeBegin { get; set; }
         public string PostalCodeEnd { get; set; }
     }

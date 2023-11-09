@@ -15,6 +15,10 @@ namespace clsRRDataHubMasterSchema
     /// </remarks>
     public class Brand : Thing
     {
+        public Brand(string identifier, string name) : base(identifier, name)
+        {
+        }
+
         /// <summary>
         /// Gets or sets the aggregate rating for the brand, summarizing reviews and ratings.
         /// </summary>

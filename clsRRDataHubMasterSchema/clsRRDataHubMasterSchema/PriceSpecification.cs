@@ -8,6 +8,9 @@ namespace clsRRDataHubMasterSchema
 {
     public class PriceSpecification : Thing
     {
+        public PriceSpecification(string identifier, string name) : base(identifier, name)
+        {
+        }
         public QuantitativeValue EligibleQuantity { get;set; }
         public PriceSpecification EligibleTransactionVolume { get; set; }
         public double MaxPrice { get; set; }

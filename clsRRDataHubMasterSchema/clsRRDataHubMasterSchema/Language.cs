@@ -8,5 +8,8 @@ namespace clsRRDataHubMasterSchema
 {
     public class Language : Thing
     {
+        public Language(string identifier, string name) : base(identifier, name)
+        {
+        }
     }
 }

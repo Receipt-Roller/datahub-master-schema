@@ -13,6 +13,10 @@ namespace clsRRDataHubMasterSchema
     /// </summary>
     public class Audience : Thing
     {
+        public Audience(string identifier, string name) : base(identifier, name)
+        {
+        }
+
         /// <summary>
         /// Gets or sets the type of audience. This can specify the broad category the audience belongs to.
         /// </summary>

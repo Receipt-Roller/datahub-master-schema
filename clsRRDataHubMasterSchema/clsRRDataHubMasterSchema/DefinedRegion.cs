@@ -12,6 +12,11 @@ namespace clsRRDataHubMasterSchema
     /// </summary>
     public class DefinedRegion : Thing
     {
+
+        public DefinedRegion(string identifier, string name) : base(identifier, name)
+        {
+        }
+
         /// <summary>
         /// Gets or sets the country associated with the defined region.
         /// </summary>

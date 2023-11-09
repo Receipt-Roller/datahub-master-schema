@@ -8,6 +8,10 @@ namespace clsRRDataHubMasterSchema
 {
     public class Offer : Thing
     {
+        public Offer(string identifier, string name) : base(identifier, name)
+        {
+        }
+
         public List<string> AcceptedPaymentMethods { get; set; }
         public List<Offer> AddOns { get; set; }
         public QuantitativeValue AdvanceBookingRequirement { get; set; }

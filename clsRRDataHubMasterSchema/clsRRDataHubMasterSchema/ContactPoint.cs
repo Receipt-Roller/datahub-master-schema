@@ -16,6 +16,10 @@ namespace clsRRDataHubMasterSchema
     /// </remarks>
     public class ContactPoint : Thing
     {
+        public ContactPoint(string identifier, string name) : base(identifier, name)
+        {
+        }
+
         /// <summary>
         /// Gets or sets the areas served by this contact point.
         /// </summary>

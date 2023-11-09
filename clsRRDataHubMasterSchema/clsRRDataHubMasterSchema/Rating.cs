@@ -9,6 +9,9 @@ namespace clsRRDataHubMasterSchema
 {
     public class Rating : Thing
     {
+        public Rating(string identifier, string name) : base(identifier, name)
+        {
+        }
         public List<Person> AuthorPersons { get; set; }
         public List<Organization> AuthorOrganizations { get; set; }
         public int BestRating { get; set; }

@@ -16,6 +16,9 @@ namespace clsRRDataHubMasterSchema
     /// </remarks>
     public class ActionAccessSpecification : Thing
     {
+        public ActionAccessSpecification(string identifier, string name) : base(identifier, name)
+        {
+        }
         /// <summary>
         /// Gets or sets the end time for the availability of the action.
         /// </summary>

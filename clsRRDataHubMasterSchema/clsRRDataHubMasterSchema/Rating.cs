@@ -12,12 +12,18 @@ namespace clsRRDataHubMasterSchema
         public Rating(string identifier, string name) : base(identifier, name)
         {
         }
-        public List<Person> AuthorPersons { get; set; }
-        public List<Organization> AuthorOrganizations { get; set; }
-        public int BestRating { get; set; }
-        public string RatingExplanation { get; set; }
-        public int RatingValue { get; set; }
-        public string ReviewAspect { get; set; }
-        public int WorstRating { get; set; }
+
+        public Rating() : base()
+        {
+          
+        }
+
+        public List<Person>? AuthorPersons { get; set; }
+        public List<Organization>? AuthorOrganizations { get; set; }
+        public int? BestRating { get; set; }
+        public string? RatingExplanation { get; set; }
+        public int? RatingValue { get; set; }
+        public string? ReviewAspect { get; set; }
+        public int? WorstRating { get; set; }
     }
 }

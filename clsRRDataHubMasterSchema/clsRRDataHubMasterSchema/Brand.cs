@@ -19,6 +19,12 @@ namespace clsRRDataHubMasterSchema
         {
         }
 
+        // Parameterless constructor for deserialization
+        public Brand() : base()
+        {
+            // Initialization specific to Brand, if necessary
+        }
+
         /// <summary>
         /// Gets or sets the aggregate rating for the brand, summarizing reviews and ratings.
         /// </summary>

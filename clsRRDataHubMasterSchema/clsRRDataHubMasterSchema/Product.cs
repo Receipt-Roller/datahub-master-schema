@@ -16,6 +16,12 @@ namespace clsRRDataHubMasterSchema
         {
         }
 
+        // Parameterless constructor for deserialization
+        public Product() : base()
+        {
+            // Initialization specific to Product, if necessary
+        }
+
         // An additional property of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public PropertyValue? AdditionalProperty { get; set; }
@@ -26,7 +32,7 @@ namespace clsRRDataHubMasterSchema
 
         // The Amazon Standard Identification Number (ASIN) of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string Asin { get; set; }
+        public string? Asin { get; set; }
 
         // The intended audience for the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
@@ -34,7 +40,7 @@ namespace clsRRDataHubMasterSchema
 
         // Any award associated with the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string Award { get; set; }
+        public string? Award { get; set; }
 
         // The brand of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
@@ -46,23 +52,23 @@ namespace clsRRDataHubMasterSchema
 
         // The category of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string Category { get; set; }
+        public string? Category { get; set; }
 
         // The color of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string Color { get; set; }
+        public string? Color { get; set; }
 
         // The country where the product was assembled.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string CountryOfAssembly { get; set; }
+        public string? CountryOfAssembly { get; set; }
 
         // The country where the product was last processed.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string CountryOfLastProcessing { get; set; }
+        public string? CountryOfLastProcessing { get; set; }
 
         // The country of origin of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string CountryOfOrigin { get; set; }
+        public string? CountryOfOrigin { get; set; }
 
         // The depth of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
@@ -70,23 +76,23 @@ namespace clsRRDataHubMasterSchema
 
         // The Global Trade Item Number (GTIN) of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string Gtin { get; set; }
+        public string? Gtin { get; set; }
 
         // The 12-digit GTIN of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string Gtin12 { get; set; }
+        public string? Gtin12 { get; set; }
 
         // The 13-digit GTIN of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string Gtin13 { get; set; }
+        public string? Gtin13 { get; set; }
 
         // The 15-digit GTIN of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string Gtin15 { get; set; }
+        public string? Gtin15 { get; set; }
 
         // The 8-digit GTIN of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string Gtin8 { get; set; }
+        public string? Gtin8 { get; set; }
 
         // Indicates if the product has adult considerations.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
@@ -94,7 +100,7 @@ namespace clsRRDataHubMasterSchema
 
         // Details about the energy consumption of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string HasEnergyConsumptionDetails { get; set; }
+        public string? HasEnergyConsumptionDetails { get; set; }
 
         // The measurements of the product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
@@ -110,18 +116,18 @@ namespace clsRRDataHubMasterSchema
 
         // The ID within a product group.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public string InProductGroupWithID { get; set; }
+        public string? InProductGroupWithID { get; set; }
 
         // Indicates if the product is an accessory or spare part for another product.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public Product? IsAccessoryOrSparePartFor { get; set; }
 
         // The product for which this product is a consumable.
-        public Product IsConsumableFor { get; set; }
+        public Product? IsConsumableFor { get; set; }
 
         // Indicates if the product is family friendly.
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-        public bool IsFamilyFriendly { get; set; }
+        public bool? IsFamilyFriendly { get; set; }
 
     }
 }

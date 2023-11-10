@@ -11,7 +11,7 @@
     "C:\\Users\\SHOSHIMODA\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.8",
+    "version": "1.0.11",
     "restore": {
       "projectUniqueName": "C:\\Users\\SHOSHIMODA\\source\\repos\\RR_DataHub_MasterScheme\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema\\clsRRDataHubMasterSchema.csproj",
       "projectName": "RRDataHubMasterSchema",

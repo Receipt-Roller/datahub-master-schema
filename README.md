@@ -33,7 +33,10 @@ Once you've submitted a pull request, our team will review your proposed changes
 This project is licensed under the MIT License. The MIT License is a short and simple permissive license that allows for reuse with few restrictions. It permits use, modification, and distribution while ensuring the original creators receive credit for their work.
 
 ## History
-- 1.0.8.0 Parameterless constructor for deserialization in Place
-- 1.0.7.0 Parameterless constructor for deserialization in PostalAddress
-- 1.0.6.0 Add GeoCoordinate class
-- 1.0.5.0 Set parameterless constructor for deserialization
+- 1.0.11.0 Fixed error on ProductGroup HasAdultConsideration null handler.
+- 1.0.10.0 Added list of ProductGroup within.
+- 1.0.09.0 Updated Brand, ProductGroup classes
+- 1.0.08.0 Parameterless constructor for deserialization in Place
+- 1.0.07.0 Parameterless constructor for deserialization in PostalAddress
+- 1.0.06.0 Add GeoCoordinate class
+- 1.0.05.0 Set parameterless constructor for deserialization

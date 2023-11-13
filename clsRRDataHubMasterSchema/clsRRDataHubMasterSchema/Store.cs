@@ -81,5 +81,4 @@ namespace clsRRDataHubMasterSchema
         public Place? Place { get; set; }
     }
 
-  
 }

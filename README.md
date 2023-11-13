@@ -33,6 +33,8 @@ Once you've submitted a pull request, our team will review your proposed changes
 This project is licensed under the MIT License. The MIT License is a short and simple permissive license that allows for reuse with few restrictions. It permits use, modification, and distribution while ensuring the original creators receive credit for their work.
 
 ## History
+- 1.0.13.0 Added Inventory, InventoryTransaction.
+- 1.0.12.0 Added Person.
 - 1.0.11.0 Fixed error on ProductGroup HasAdultConsideration null handler.
 - 1.0.10.0 Added list of ProductGroup within.
 - 1.0.09.0 Updated Brand, ProductGroup classes
